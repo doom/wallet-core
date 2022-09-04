@@ -101,6 +101,9 @@ TEST(Coin, DeriveAddress) {
         case TWCoinTypeAlgorand:
             EXPECT_EQ(address, "52J2J5TPRULLQGN3TPVZ77GN7TOBIEXIP7XGUMSMFKM2DYHGOFEOGBP2T4");
             break;
+	case TWCoinTypeAptos:
+            EXPECT_EQ(address, "ce2fd04ac9efa74f17595e5785e847a2399d7e637f5e8179244f76191f653276");
+            break;
         case TWCoinTypeBandChain:
             EXPECT_EQ(address, "band1hkfq3zahaqkkzx5mjnamwjsfpq2jk7z0q5lp5f");
             break;

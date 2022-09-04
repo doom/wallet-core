@@ -2741,5 +2741,33 @@
       "rpc": "https://exchainrpc.okex.org",
       "documentation": "https://okc-docs.readthedocs.io/en/latest"
     }
+  },
+  {
+    "id": "aptos",
+    "name": "Aptos",
+    "coinId": 637,
+    "symbol": "APTOS",
+    "decimals": 8,
+    "blockchain": "Aptos",
+    "derivation": [
+      {
+        "path": "m/44'/637'/0'"
+      }
+    ],
+    "curve": "ed25519",
+    "publicKeyType": "ed25519",
+    "explorer": {
+      "url": "https://explorer.devnet.aptos.dev",
+      "txPath": "/txn/",
+      "accountPath": "/account/",
+      "sampleTx": "5646",
+      "sampleAccount": "0xf3f2d2bc98bf666bc4869f5ff56723e5c9d252a63209bb2377ea64cd1a41aec0"
+    },
+    "info": {
+      "url": "https://aptoslabs.com/",
+      "source": "https://github.com/aptos-labs/aptos-core",
+      "rpc": "https://fullnode.devnet.aptoslabs.com/v1",
+      "documentation": "https://aptos.dev/"
+    }
   }
 ]
